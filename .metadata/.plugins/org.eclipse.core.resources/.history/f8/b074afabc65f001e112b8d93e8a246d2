@@ -1,0 +1,16 @@
+package main;
+
+public class CuentaCorriente extends Cuenta {
+
+	public CuentaCorriente(int dni) {
+		super(dni);
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public boolean haySaldoSufiente(double monto) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+}
